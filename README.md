@@ -1,6 +1,6 @@
-# UnoGPIO
+# USB
 
-UnoGPIO is a small split architecture: a Windows C++17 application owns the
+USB is a small split architecture: a Windows C++17 application owns the
 main program and the Arduino Uno only executes a fixed binary GPIO protocol.
 The reusable Windows library is in `UnoGPIO/`; the firmware is in
 `Arduino/UnoGPIO_Firmware/`.
